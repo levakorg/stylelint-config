@@ -1,0 +1,33 @@
+{
+  "name": "@levakorg/stylelint-config",
+  "version": "1.0.0",
+  "description": "Default stylelint config <levakorg> company",
+  "author": "levakorg <levakorg@gmail.com>",
+  "repository": "https://github.com/levakorg/stylelint-config",
+  "homepage": "https://github.com/levakorg/stylelint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "scripts": {
+    "stylelint": "stylelint {**/*,*}.{css,styl,less,scss,sass}",
+    "stylelint:fix": "stylelint {**/*,*}.{css,styl,less,scss,sass} --fix"
+  },
+  "dependencies": {
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.5",
+    "postcss-styl": "^0.11.1",
+    "stylelint": "^14.14.0",
+    "stylelint-config-css-modules": "^4.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-less": "^1.0.6",
+    "stylelint-order": "^5.0.0",
+    "stylelint-order-config-standard": "^0.1.3",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.3.0",
+    "stylelint-stylus": "^0.17.0"
+  }
+}
