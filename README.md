@@ -22,9 +22,9 @@ package.json
 
 ```
 {
-  ...
-  "stylelint": "@levakorg/stylelint-config",
-  ...
+  "stylelint": {
+    "extends": ["@levakorg/stylelint-config"]
+  }
 }
 ```
 
@@ -39,7 +39,7 @@ module.exports = {
 **3. Add scripts to local `package.json`**
 
 ```
-"stylelint": "stylelint {**/*,*}.{css,styl,less,scss,sass}",
+"stylelint": "stylelint {**/*,*}.{css,styl,less,scss,sass}"
 "stylelint:fix": "stylelint {**/*,*}.{css,styl,less,scss,sass} --fix"
 ```
 
