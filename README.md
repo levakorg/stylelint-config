@@ -7,13 +7,13 @@ Default stylelint config **levakorg** company
 **1. Installation**
 
 ```
-npm install --save-dev @levakorg/stylelint-config
+npm install --save-dev stylelint @levakorg/stylelint-config
 ```
 
 or
 
 ```
-yarn add --dev @levakorg/stylelint-config
+yarn add --dev stylelint @levakorg/stylelint-config
 ```
 
 **2. Configuration**
@@ -25,6 +25,14 @@ package.json
   "stylelint": {
     "extends": ["@levakorg/stylelint-config"]
   }
+}
+```
+
+.stylelintrc | .stylelintrc.json
+
+```
+{
+  "extends": ["@levakorg/stylelint-config"]
 }
 ```
 
