@@ -94,7 +94,15 @@ You can use this package for **preprocessor**
 
 ## About
 
-**1. Used dependencies**
+**1. Config list**
+
+- [css](https://github.com/levakorg/stylelint-config/blob/master/.stylelintrc.js)
+- [less](https://github.com/levakorg/stylelint-config/blob/master/less/.stylelintrc.js)
+- [scss](https://github.com/levakorg/stylelint-config/blob/master/scss/.stylelintrc.js)
+- [sass](https://github.com/levakorg/stylelint-config/blob/master/sass/.stylelintrc.js)
+- [stylus](https://github.com/levakorg/stylelint-config/blob/master/stylus/.stylelintrc.js)
+
+**2. Used dependencies**
 
 - [postcss-less](https://www.npmjs.com/package/postcss-less)
 - [postcss-sass](https://www.npmjs.com/package/postcss-sass)
@@ -110,5 +118,3 @@ You can use this package for **preprocessor**
 - [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
-
-## [Config](https://github.com/levakorg/stylelint-config/blob/master/.stylelint.js)
