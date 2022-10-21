@@ -47,8 +47,8 @@ module.exports = {
 **3. Add scripts to local `package.json`**
 
 ```
-"stylelint": "stylelint {**/*,*}.{css,styl,less,scss,sass}"
-"stylelint:fix": "stylelint {**/*,*}.{css,styl,less,scss,sass} --fix"
+"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus}"
+"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus} --fix"
 ```
 
 **4. Using scripts**
