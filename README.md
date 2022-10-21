@@ -97,15 +97,18 @@ You can use this package for **preprocessor**
 **1. Used dependencies**
 
 - [postcss-less](https://www.npmjs.com/package/postcss-less)
+- [postcss-sass](https://www.npmjs.com/package/postcss-sass)
 - [postcss-scss](https://www.npmjs.com/package/postcss-scss)
 - [postcss-styl](https://www.npmjs.com/package/postcss-styl)
 - [stylelint](https://www.npmjs.com/package/stylelint)
 - [stylelint-config-prettier](https://www.npmjs.com/package/stylelint-config-prettier)
+- [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)
 - [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
 - [stylelint-less](https://www.npmjs.com/package/stylelint-less)
 - [stylelint-order](https://www.npmjs.com/package/stylelint-order)
 - [stylelint-order-config-standard](https://www.npmjs.com/package/stylelint-order-config-standard)
 - [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
+- [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
 
 ## [Config](https://github.com/levakorg/stylelint-config/blob/master/.stylelint.js)
