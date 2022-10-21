@@ -71,6 +71,27 @@ yarn stylelint
 yarn stylelint:fix
 ```
 
+
+## Notes
+
+You can use this package for **preprocessor**
+
+```
+@levakorg/stylelint-config/less
+```
+
+```
+@levakorg/stylelint-config/scss
+```
+
+```
+@levakorg/stylelint-config/sass
+```
+
+```
+@levakorg/stylelint-config/stylus
+```
+
 ## About
 
 **1. Used dependencies**
