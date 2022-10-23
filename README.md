@@ -71,7 +71,6 @@ yarn stylelint
 yarn stylelint:fix
 ```
 
-
 ## Notes
 
 You can use this package for **preprocessor**
@@ -110,11 +109,9 @@ You can use this package for **preprocessor**
 - [postcss-styl](https://www.npmjs.com/package/postcss-styl)
 - [stylelint](https://www.npmjs.com/package/stylelint)
 - [stylelint-config-prettier](https://www.npmjs.com/package/stylelint-config-prettier)
-- [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)
 - [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
 - [stylelint-less](https://www.npmjs.com/package/stylelint-less)
 - [stylelint-order](https://www.npmjs.com/package/stylelint-order)
-- [stylelint-order-config-standard](https://www.npmjs.com/package/stylelint-order-config-standard)
 - [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
