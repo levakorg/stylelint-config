@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['../.stylelintrc.js'],
+  extends: ['../index.js'],
   plugins: ['stylelint-scss'],
   overrides: [
     {

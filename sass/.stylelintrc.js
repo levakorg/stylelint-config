@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['../.stylelintrc.js', 'stylelint-config-sass-guidelines'],
+  extends: ['../index.js'],
+  plugins: ['stylelint-scss'],
   overrides: [
     {
       files: ['**/*.sass'],
