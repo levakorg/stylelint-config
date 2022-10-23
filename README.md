@@ -71,6 +71,39 @@ yarn stylelint
 yarn stylelint:fix
 ```
 
+### Notes
+
+**1. You can use this package for `preprocessor`**
+
+```
+@levakorg/stylelint-config/less
+```
+
+```
+@levakorg/stylelint-config/scss
+```
+
+```
+@levakorg/stylelint-config/sass
+```
+
+```
+@levakorg/stylelint-config/stylus
+```
+
+**2. Performance**
+
+- [x] **css**
+- [x] **less**
+- [x] **scss**
+- [ ] **sass**
+  - Problems understanding `syntax`
+- [ ] **stylus**
+  - Problems understanding `syntax`
+- [ ] styled-components
+  - Problems understanding `syntax`
+  - Ignore `.js/.ts files` without styled-components
+
 ### About
 
 **1. Config list**
@@ -95,37 +128,3 @@ yarn stylelint:fix
 - [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
-
-### Notes
-
-
-**1. You can use this package for `preprocessor`**
-
-```
-@levakorg/stylelint-config/less
-```
-
-```
-@levakorg/stylelint-config/scss
-```
-
-```
-@levakorg/stylelint-config/sass
-```
-
-```
-@levakorg/stylelint-config/stylus
-```
-
-**2. performance**
-
-- [x] **css**
-- [x] **less**
-- [x] **scss**
-- [ ] **sass**
-  - Problems understanding `syntax`
-- [ ] **stylus**
-  - Problems understanding `syntax`
-- [ ] styled-components
-  - Problems understanding `syntax`
-  - Ignore `.js/.ts files` without styled-components
