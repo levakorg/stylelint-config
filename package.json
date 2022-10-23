@@ -2,10 +2,11 @@
   "main": "index.js",
   "version": "1.0.0",
   "name": "@levakorg/stylelint-config",
+  "description": "Stylelint config levakorg company",
   "author": "Kirirll Alkhimenok <levakorg@gmail.com>",
-  "description": "Default stylelint config <levakorg> company",
-  "repository": "https://github.com/levakorg/stylelint-config",
   "homepage": "https://github.com/levakorg/stylelint-config",
+  "repository": "https://github.com/levakorg/stylelint-config",
+  "bugs": "https://github.com/levakorg/stylelint-config/issues",
   "license": "MIT",
   "keywords": [
     "stylelint",
