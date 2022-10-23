@@ -2,7 +2,7 @@
   "main": "index.js",
   "version": "1.0.0",
   "name": "@levakorg/stylelint-config",
-  "description": "Stylelint config levakorg company",
+  "description": "Stylelint config levakorg org's",
   "author": "Kirirll Alkhimenok <levakorg@gmail.com>",
   "homepage": "https://github.com/levakorg/stylelint-config",
   "repository": "https://github.com/levakorg/stylelint-config",
