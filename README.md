@@ -20,7 +20,7 @@ yarn add --dev stylelint @levakorg/stylelint-config
 
 package.json
 
-```
+```JSON
 {
   "stylelint": {
     "extends": ["@levakorg/stylelint-config"]
@@ -30,7 +30,7 @@ package.json
 
 .stylelintrc | .stylelintrc.json
 
-```
+```JSON
 {
   "extends": ["@levakorg/stylelint-config"]
 }
@@ -38,7 +38,7 @@ package.json
 
 .stylelintrc.js
 
-```
+```JS
 module.exports = {
   extends: ['@levakorg/stylelint-config']
 }
@@ -47,8 +47,8 @@ module.exports = {
 **3. Add scripts to local `package.json`**
 
 ```
-"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus}"
-"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus} --fix"
+"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus}",
+"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus} --fix",
 ```
 
 **4. Using scripts**
