@@ -1,7 +1,7 @@
 {
   "main": "index.js",
   "version": "1.0.0",
-  "name": "alkhimenok-qqqqqqq-stylelint-config",
+  "name": "@levakorg/stylelint-config",
   "author": "levakorg <levakorg@gmail.com>",
   "description": "Stylelint config levakorg org's",
   "homepage": "https://github.com/levakorg/stylelint-config",
