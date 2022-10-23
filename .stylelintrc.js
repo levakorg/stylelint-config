@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./lib/standard', './lib/order', './lib/prettier']
+  extends: ['./lib/standard.js', './lib/order.js', './lib/prettier.js']
 }
