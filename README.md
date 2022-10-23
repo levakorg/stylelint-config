@@ -115,3 +115,16 @@ You can use this package for **preprocessor**
 - [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
+
+## Notes
+
+- [x] **css**
+- [x] **less**
+- [x] **scss**
+- [ ] **sass**
+  - Problems understanding `syntax`
+- [ ] **stylus**
+  - Problems understanding `syntax`
+- [ ] styled-components
+  - Problems understanding `syntax`
+  - Ignore `.js/.ts files` without styled-components
