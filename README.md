@@ -1,5 +1,7 @@
 # @levakorg/stylelint-config
 
+Stylelint config levakorg org's
+
 ## Setup
 
 **1. Installation**
