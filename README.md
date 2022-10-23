@@ -47,8 +47,8 @@ module.exports = {
 **3. Add scripts**
 
 ```
-"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus}",
-"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus} --fix",
+"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts}",
+"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts} --fix",
 ```
 
 **4. Using scripts**
@@ -88,7 +88,6 @@ yarn stylelint:fix
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
 
-
 ### Notes
 
 **1. Using preprocessors**
@@ -114,6 +113,7 @@ yarn stylelint:fix
 ```
 
 **2. Config / Performance**
+
 - [x] **[css](https://github.com/levakorg/stylelint-config/blob/master/.stylelintrc.js)**
 - [x] **[less](https://github.com/levakorg/stylelint-config/blob/master/less/.stylelintrc.js)**
 - [x] **[scss](https://github.com/levakorg/stylelint-config/blob/master/scss/.stylelintrc.js)**
@@ -121,6 +121,5 @@ yarn stylelint:fix
   - Problems understanding `syntax`
 - [ ] **[stylus](https://github.com/levakorg/stylelint-config/blob/master/stylus/.stylelintrc.js)**
   - Problems understanding `syntax`
-- [ ] **[styled-components](https://github.com/levakorg/stylelint-config/blob/master/styled-components/.stylelintrc.js)**
-  - Problems understanding `syntax`
-  - Ignore `.js/.ts files` without styled-components
+- [x] **[styled-components](https://github.com/levakorg/stylelint-config/blob/master/styled-components/.stylelintrc.js)**
+  - Requires `.styled.js / .styled.ts` extension
