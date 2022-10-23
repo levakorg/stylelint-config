@@ -40,7 +40,7 @@ package.json
 
 ```
 module.exports = {
-  extends: [require('@levakorg/stylelint-config')]
+  extends: ['@levakorg/stylelint-config']
 }
 ```
 
