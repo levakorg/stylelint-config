@@ -2,7 +2,7 @@
 
 Stylelint config levakorg org's
 
-## Setup
+### Setup
 
 **1. Installation**
 
@@ -71,27 +71,7 @@ yarn stylelint
 yarn stylelint:fix
 ```
 
-## Notes
-
-You can use this package for **preprocessor**
-
-```
-@levakorg/stylelint-config/less
-```
-
-```
-@levakorg/stylelint-config/scss
-```
-
-```
-@levakorg/stylelint-config/sass
-```
-
-```
-@levakorg/stylelint-config/stylus
-```
-
-## About
+### About
 
 **1. Config list**
 
@@ -116,7 +96,28 @@ You can use this package for **preprocessor**
 - [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
 - [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
 
-## Notes
+### Notes
+
+
+**1. You can use this package for `preprocessor`**
+
+```
+@levakorg/stylelint-config/less
+```
+
+```
+@levakorg/stylelint-config/scss
+```
+
+```
+@levakorg/stylelint-config/sass
+```
+
+```
+@levakorg/stylelint-config/stylus
+```
+
+**2. performance**
 
 - [x] **css**
 - [x] **less**
