@@ -1,7 +1,7 @@
 {
   "main": "index.js",
   "version": "1.0.0",
-  "name": "@levakorg/stylelint-config",
+  "name": "alkhimenok-qqqqqqq-stylelint-config",
   "author": "levakorg <levakorg@gmail.com>",
   "description": "Stylelint config levakorg org's",
   "homepage": "https://github.com/levakorg/stylelint-config",
@@ -35,6 +35,7 @@
     "stylelint-stylus": "^0.17.0"
   },
   "peerDependencies": {
+    "prettier": "2.7.1",
     "stylelint": "^14.13.0"
   }
 }
