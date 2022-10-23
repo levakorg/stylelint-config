@@ -2,4 +2,4 @@
 
 ## 1.0.0
 
-Initial config
+- Initial config
