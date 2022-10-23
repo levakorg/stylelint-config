@@ -1,6 +1,6 @@
 {
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "name": "@levakorg/stylelint-config",
   "author": "Kirirll Alkhimenok <levakorg@gmail.com>",
   "description": "Default stylelint config <levakorg> company",
