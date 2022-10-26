@@ -71,37 +71,6 @@ yarn stylelint
 yarn stylelint:fix
 ```
 
-### About
-
-**1. Used dependencies**
-
-- [postcss-jsx](https://www.npmjs.com/package/postcss-jsx)
-- [postcss-less](https://www.npmjs.com/package/postcss-less)
-- [postcss-sass](https://www.npmjs.com/package/postcss-sass)
-- [postcss-scss](https://www.npmjs.com/package/postcss-scss)
-- [postcss-styl](https://www.npmjs.com/package/postcss-styl)
-- [postcss-syntax](https://www.npmjs.com/package/postcss-syntax)
-- [stylelint-config-prettier](https://www.npmjs.com/package/stylelint-config-prettier)
-- [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
-- [stylelint-declaration-block-no-ignored-properties](https://www.npmjs.com/package/stylelint-declaration-block-no-ignored-properties)
-- [stylelint-less](https://www.npmjs.com/package/stylelint-less)
-- [stylelint-order](https://www.npmjs.com/package/stylelint-order)
-- [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
-- [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)
-- [stylelint-stylus](https://www.npmjs.com/package/stylelint-stylus)
-
-**2. Used devDependencies**
-
-- [@levakorg/eslint-config](https://www.npmjs.com/package/@levakorg/eslint-config)
-- [@levakorg/prettier-config](https://www.npmjs.com/package/@levakorg/prettier-config)
-- [eslint](https://www.npmjs.com/package/eslint)
-- [prettier](https://www.npmjs.com/package/prettier)
-
-**3. Used peerDependencies**
-
-- [prettier](https://www.npmjs.com/package/prettier)
-- [stylelint](https://www.npmjs.com/package/stylelint)
-
 ### Notes
 
 **1. Using preprocessors**
