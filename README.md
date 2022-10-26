@@ -92,7 +92,10 @@ yarn stylelint:fix
 
 **2. Used devDependencies**
 
+- [@levakorg/eslint-config](https://www.npmjs.com/package/@levakorg/eslint-config)
 - [@levakorg/prettier-config](https://www.npmjs.com/package/@levakorg/prettier-config)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [prettier](https://www.npmjs.com/package/prettier)
 
 **3. Used peerDependencies**
 
