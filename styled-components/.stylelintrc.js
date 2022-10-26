@@ -12,7 +12,7 @@ module.exports = {
         'no-missing-end-of-source-newline': null,
         'no-empty-first-line': null,
         'no-empty-source': null,
-        'prettier/prettier': true,
+        'prettier/prettier': true
       }
     }
   ]
