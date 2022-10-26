@@ -2,8 +2,8 @@
   "main": "index.js",
   "version": "1.0.0",
   "name": "@levakorg/stylelint-config",
-  "author": "levakorg <levakorg@gmail.com>",
   "description": "Stylelint config levakorg org's",
+  "author": "levakorg authors <levakorg@gmail.com>",
   "homepage": "https://github.com/levakorg/stylelint-config",
   "repository": "https://github.com/levakorg/stylelint-config",
   "bugs": "https://github.com/levakorg/stylelint-config/issues",
@@ -11,6 +11,20 @@
   "keywords": [
     "stylelint",
     "stylelint-config"
+  ],
+  "files": [
+    "lib",
+    "less",
+    "scss",
+    "sass",
+    "stylus",
+    "styled-components",
+    "total",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    ".stylelintrc.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -20,19 +34,26 @@
     "stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts} --fix"
   },
   "dependencies": {
+    "postcss-jsx": "^0.36.4",
     "postcss-less": "^6.0.0",
     "postcss-sass": "^0.5.0",
     "postcss-scss": "^4.0.5",
     "postcss-styl": "^0.11.1",
-    "postcss-styled": "^0.34.0",
     "postcss-syntax": "^0.36.2",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^29.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
     "stylelint-less": "^1.0.6",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.3.0",
     "stylelint-stylus": "^0.17.0"
+  },
+  "devDependencies": {
+    "@levakorg/eslint-config": "^1.0.0",
+    "@levakorg/prettier-config": "^1.0.0",
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "prettier": "2.7.1",
