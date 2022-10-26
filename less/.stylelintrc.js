@@ -4,7 +4,11 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.less'],
-      customSyntax: 'postcss-less'
+      customSyntax: 'postcss-less',
+      rules: {
+        'max-empty-lines': 0,
+        'prettier/prettier': true
+      }
     }
   ]
 }

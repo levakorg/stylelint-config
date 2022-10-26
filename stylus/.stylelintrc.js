@@ -4,7 +4,11 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.{styl,stylus}'],
-      customSyntax: 'postcss-styl'
+      customSyntax: 'postcss-styl',
+      rules: {
+        'max-empty-lines': 0,
+        'prettier/prettier': null
+      }
     }
   ]
 }

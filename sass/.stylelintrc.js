@@ -4,7 +4,11 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.sass'],
-      customSyntax: 'postcss-sass'
+      customSyntax: 'postcss-sass',
+      rules: {
+        'max-empty-lines': 0,
+        'prettier/prettier': null
+      }
     }
   ]
 }
