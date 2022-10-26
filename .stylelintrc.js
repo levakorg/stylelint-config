@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['./lib/standard.js', './lib/order.js', './lib/properties.js', './lib/prettier.js']
+  extends: [
+    './lib/stylelint-config-standard.js',
+    './lib/stylelint-declaration-block-no-ignored-properties.js',
+    './lib/stylelint-order.js',
+    './lib/stylelint-prettier.js'
+  ]
 }
