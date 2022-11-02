@@ -7,13 +7,13 @@ Stylelint config levakorg org's
 **1. Installation**
 
 ```
-npm install --save-dev stylelint @levakorg/stylelint-config
+npm install --save-dev stylelint prettier @levakorg/stylelint-config
 ```
 
 or
 
 ```
-yarn add --dev stylelint @levakorg/stylelint-config
+yarn add --dev stylelint prettier @levakorg/stylelint-config
 ```
 
 **2. Configuration**
@@ -46,9 +46,11 @@ module.exports = {
 
 **3. Add scripts**
 
-```
-"stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts}",
-"stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts} --fix",
+```JSON
+{
+  "stylelint": "stylelint '{**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts}' --allow-empty-input",
+  "stylelint:fix": "stylelint '{**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts}' --allow-empty-input --fix",
+}
 ```
 
 **4. Using scripts**
