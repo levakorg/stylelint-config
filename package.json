@@ -1,4 +1,5 @@
 {
+  "private": false,
   "main": "index.js",
   "version": "1.0.0",
   "name": "@levakorg/stylelint-config",
@@ -31,8 +32,11 @@
     "access": "public"
   },
   "scripts": {
-    "stylelint": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts}",
-    "stylelint:fix": "stylelint {**/*,*}.{css,less,scss,sass,styl,stylus,styled.js,styled.ts} --fix"
+    "prettier": "prettier check .",
+    "prettier:fix": "prettier --write .",
+    "eslint": "eslint . --ext .json,.cjs,.mjs,.js,.ts,.jsx,.tsx,.vue,.svelte",
+    "eslint:fix": "eslint . --ext .json,.cjs,.mjs,.js,.ts,.jsx,.tsx,.vue,.svelte --fix",
+    "format": "yarn prettier:fix && yarn eslint:fix"
   },
   "dependencies": {
     "postcss-jsx": "^0.36.4",
@@ -57,7 +61,7 @@
     "prettier": "^2.7.1"
   },
   "peerDependencies": {
-    "prettier": "2.7.1",
+    "prettier": "^2.7.1",
     "stylelint": "^14.13.0"
   }
 }
